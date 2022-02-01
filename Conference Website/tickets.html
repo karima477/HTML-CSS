@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-image: url(/img/Background.png);
+        }
+
+        .headline{
+   
+        margin-top: 30px;
+        padding: 10px;
+        }
+
+        h1,p{
+           
+            color: white;
+        }
+
+        ul li {
+            list-style: none;
+            color: white;
+            line-height: 30px;
+        }
+
+        .card1, .card2, .card3{
+            width: 100px;
+            height: auto;
+            /* margin: 30px;
+            padding: 20px; */
+        }
+
+        .title{
+background-color: orange;
+padding: 20px;
+        }
+        .card-body{
+            background-color: rgb(99, 45, 7);
+            height: 300px;
+            padding: 40px;
+        }
+
+        .footer{
+            background-color: orange;
+            padding: 20px;
+            text-align: center;
+            font-size: larger;
+            color: white;
+        }
+
+        button{
+            background: none;
+            padding: 20px;
+            border: none;
+            color:rgb(99, 45, 7);
+            font-size: larger; 
+        }
+
+
+
+
+
+        .row{
+    width:100%;
+}
+
+
+
+.row::after{
+    content:'';
+    clear:both;
+    display:block;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    width: 100%;
+  }
+
+
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+
+    </style>
+</head>
+<body>
+    <div class="headline" style=" text-align: center;">
+        <h1 style="font-size: 3rem;">Tickets</h1>
+        <p>The place cards of the conference are given below</p>
+    </div>
+
+    <div class="row">
+        <div class="card1 col-4">
+            <div class="title"><h1>Booster</h1><p>TICKET ACCESS FOR DAY 01 ONLY</p></div>
+            <div class="card-body"><h1 style="font-size: 1.5rem;">$150</h1>
+
+                <ul><li> Main entrance to summit</li>
+                    <li> Pitch competion</li>
+                   <li> Networking area </li> 
+                   <li> Catering included</li> 
+                    </ul>
+            </div>
+            <div class="footer"><button style="color: white;">SOLD OUT</button></div>
+
+
+
+        </div>
+        <div class="card2 col-4 ">
+            <div class="title"><h1>Conference</h1><P>TICKET ACCESS FOR DAY 01-03</P></div>
+            <div class="card-body"><h1 style="font-size: 1.5rem;">$200</h1>
+                <ul><li> Main entrance to summit</li>
+                    <li> Pitch competion</li>
+                   <li> Networking area </li> 
+                   <li> Catering included</li> 
+                    </ul>
+            </div>
+            <div class="footer"><button>REGISTER</button></div>
+
+
+
+        </div>
+        <div class="card3 col-4">
+            <div class="title"><h1>Acceleration</h1><p>TICKET ACCESS FOR DAY 01-05</p></div>
+            <div class="card-body"><h1 style="font-size: 1.5rem;">$285</h1>
+            <ul><li> Main entrance to summit</li>
+                <li> 6 days of coaching</li>
+               <li> Networking area </li> 
+               <li> Catering included</li> 
+                </ul>
+            </div>
+                <div class="footer"><button>REGISTER</button></div>
+
+        </div>
+    </div>
+   
+    
+</body>
+</html>
