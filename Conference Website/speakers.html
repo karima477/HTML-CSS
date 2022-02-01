@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body{
+            height:600px;
+            background-image: url(/img/Background.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            color: white;
+
+            
+        }
+
+        
+
+        .row{
+            height: 350px;
+            padding: 33px;
+
+           
+        }
+
+        h1{
+            font-size: 3rem;
+            margin-top: 10px;
+        }
+
+        img{
+            height: 150px;
+            width: 150px;
+
+            border-radius: 50%;
+
+            margin:50px 50px 0 50px;
+        }
+
+        p, h2{
+            text-align: center;
+        }
+
+        h1{
+            text-align: center;
+            margin-top: 200px;
+        }
+
+      
+
+   
+
+
+
+
+
+
+
+        .row{
+    width:100%;
+}
+
+
+
+.row::after{
+    content:'';
+    clear:both;
+    display:block;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    width: 100%;
+  }
+
+
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+
+
+    </style>
+</head>
+<body>
+    <div class="row">
+        <h1 class="col-6">Cheif<br> Speakers</h1><br>
+    
+
+        <p class="col-6">
+
+            <table>
+                <tr>
+                    <th> 
+                        <img src="/img/ceo Tobias Lutke.jpg" alt="">
+                        <h2>Tobias Lutke</h2>
+                        <p>CEO of Shopify</p>
+                    </th>
+
+                    <th>
+                        <img src="/img/ceo scott-lake.jpg" alt="">
+                        <h2>Scott Lake</h2>
+                        <p>CEO of Shopify</p>
+                    </th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <img src="/img/amazon-jeff-bezos.jpg" alt="">
+                        <h2>Jeff Bezos</h2>
+                        <p>CEO of Amazon</p>
+                    </td>
+                    <td>
+                        <img src="/img/ceo david h Clark.jpg" alt="">
+                        <h2>David H. Clark</h2>
+                        <p>CEO of Amazon</p>
+                    </td>
+                </tr>
+            </table>
+
+            <!-- <div class="row1 col-6 ">
+                <div class="a col-3 ">
+                   
+                </div>
+                <div class="b col-3">
+                   
+                </div>
+            </div>
+
+
+
+            <div class="row2 col6">
+                <div class="c col-3 ">
+                    
+                </div>
+                <div class="d col-3">
+                    
+                </div>
+            </div> -->
+
+
+
+        </p>
+
+
+
+
+    </div>
+</body>
+</html>

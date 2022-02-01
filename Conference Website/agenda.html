@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=devive-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body{
+            background-image: url(/img/Background.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            color: white;
+        }
+
+        
+
+        .row{
+            height: 350px;
+            padding: 33px;
+        }
+
+        h1{
+            font-size: 3rem;
+            margin-top: 150px;
+        }
+
+
+
+
+
+        table{
+            border: none;
+            background: none;
+            color: white;
+
+            text-align: center;
+            
+        }
+
+        tr, th, td{
+            margin: 70px;
+            padding: 5px;
+    
+        }
+
+        tr{
+            height: 80px;
+        }
+
+   
+
+
+
+
+
+
+
+
+
+
+        .row{
+    width:100%;
+}
+
+
+
+.row::after{
+    content:'';
+    clear:both;
+    display:block;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    width: 100%;
+  }
+
+
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+
+
+    </style>
+</head>
+<body>
+    <div class="row">
+        <h1 class="col-3">Schedule and <br> Agenda</h1><br>
+    <p class="col-9">
+        <table>
+            <tr>
+                <th>Time</th>
+                <th>Day 01</th>
+                <th>Day 02</th>
+                <th>Day 03</th>
+                <th>Day 04</th>
+                <th>Day 05</th>
+            </tr>
+
+            <tr>
+                <td>9AM - 10AM</td>
+                <td>Registration</td>
+                <td>Talks from Michael Richard</td>
+                <td>Talks from William Jacob</td>
+                <td>Talks from David Joe</td>
+                <td>Talks from George Haris</td>
+            </tr>
+
+            <tr>
+                <td>10AM - 11AM</td>
+                <td>Introduction of Premier Virtual Solution</td>
+                <td>Pitch Competion - A </td>
+                <td>Pitch Competion - B </td>
+                <td>Pitch Competion - C </td>
+                <td>Pitch Competion - D </td>
+            </tr>
+
+            <tr>
+                <td>11AM - 12PM</td>
+                <td>Talks from James Jack</td>
+                <td>Talks from Erica Paschall</td>
+                <td>Talks from Robert Oliver</td>
+                <td>Talks from Alexandar Pop</td>
+                <td>Talks from Daniel Noah</td>
+            </tr>
+
+            <tr>
+                <td>12PM - 1PM</td>
+                <td>Light Q&A</td>
+                <td>Light Q&A</td>
+                <td>Light Q&A</td>
+                <td>Light Q&A</td>
+                <td>Light Q&A</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>1PM - 2PM</td>
+                <td>Lunch break</td>
+                <td>Lunch break</td>
+                <td>Lunch break</td>
+                <td>Lunch break</td>
+                <td>Lunch break</td>
+            </tr>
+
+            <tr>
+                <td>2PM - 3PM</td>
+                <td>Talks from Thomas Ethan</td>
+                <td>Talks from Richard John</td>
+                <td>Talks from Pitar Eric</td>
+                <td>Talks from Bianka Kyle</td>
+                <td>Talks from Oscar Rhys</td>
+            </tr>
+        </table>
+    </p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,189 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+/* background starts */
+
+body{
+    background-image: url(/img/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 1350px;
+    width: 1200px;
+
+    position: relative;
+}
+
+
+.container{
+
+    border: 10px solid  rgb(54, 27, 8);
+    height: 1035px;
+    max-width: 1000px;
+
+    position: absolute;
+    top: 14%;
+    left: 14%;
+    
+}
+
+.main{
+    background-image: url(/img/code.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+
+    /* filter: blur(2px); */
+
+
+    height: 1015px;
+    width: 980px;
+
+    margin: auto;
+
+}
+
+/* background ends */
+
+/* left starts */
+
+h1{
+    padding-top: 150px;
+    padding-left: 20px;
+
+    color: white;
+    font-size: 5rem;
+
+    height: auto;
+   
+}
+
+.left-lower{
+    color: white;
+    padding: 50px 20px;
+}
+
+/* left ends */
+
+/* nav starts */
+
+.nav{
+    text-align: center;
+    padding: 1% 7%;
+}
+.nav ul li{
+    display: inline;
+    list-style: none;
+}
+
+.nav ul li a{
+    display: inline;
+    color: white;
+    text-decoration: none;
+
+    line-height: 70px;
+    padding: 0 10px;
+
+}
+
+button{
+    background-color: rgb(177, 92, 31);
+     color: white;
+     padding: 10px 10px;
+     
+}
+
+/* nav ends */
+
+/* description starts */
+
+.description{
+    text-align: center;
+
+    color: white;
+
+    width: 250px;
+    margin: auto;
+    padding: 15px;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    
+}
+
+.mobile{
+    margin-top: 50px;
+}
+
+
+/* description ends */
+
+
+
+
+
+
+
+
+
+.row{
+    width:100%;
+}
+
+
+
+.row::after{
+    content:'';
+    clear:both;
+    display:block;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    width: 100%;
+  }
+
+
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+
+
+  
+
+
+
+
